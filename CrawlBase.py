@@ -16,7 +16,8 @@ import requests
 from lxml import html
 import time
 import random
-from CrawlBasePack.Logger import Logger
+from Logger import Logger
+# from CrawlBasePack.Logger import Logger   # 用于选择
 
 
 class CrawlBase:
